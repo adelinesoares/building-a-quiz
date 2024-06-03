@@ -98,3 +98,7 @@ section {
   margin: 0 auto 10px auto;
   max-width: 600px;
 }
+
+.info {
+  padding: 10px 0 0 5px;
+}
