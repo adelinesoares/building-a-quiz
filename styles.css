@@ -68,22 +68,22 @@ h2 {
   border: 0;
 }
 
-p::before{
+p::before {
   content: "Question #";
 }
 
-nav > ul > li {
+nav>ul>li {
   color: #dfdfe2;
   margin: 0 0.2rem;
   padding: 0.2rem;
   display: block;
 }
 
-li > a {
+li>a {
   color: inherit;
 }
 
-nav > ul > li:hover {
+nav>ul>li:hover {
   background-color: #dfdfe2;
   color: #1b1b32;
   cursor: pointer;
@@ -112,7 +112,8 @@ input {
   font-size: 16px;
 }
 
-.info label, .info input {
+.info label,
+.info input {
   display: inline-block;
 }
 
@@ -165,4 +166,9 @@ footer {
   background-color: #2a2a40;
   display: flex;
   justify-content: center;
+}
+
+footer,
+footer a {
+  color: #dfdfe2;
 }
